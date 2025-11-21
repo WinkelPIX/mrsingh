@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Information</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-red-50 text-gray-800 font-sans flex flex-col">
+
+    <!-- Navbar -->
+    <nav class="bg-white/90 backdrop-blur border-b border-black/5 py-4 px-6 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <img id="companyName" src="PFSPL LOGO.png" alt="Company Logo" class="h-10 w-auto">
+            <a href="https://www.mrsinghfoods.com/"
+                class="flex items-center text-gray-600 hover:text-red-600 font-medium">
+                <img src="home.png" alt="Home Icon" class="w-6 h-6 object-contain" />
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow px-4 py-12">
+        <div class="max-w-6xl mx-auto">
+
+            <div class="mb-8 text-center md:text-left">
+                <h1 class="text-3xl font-bold text-gray-800 mb-2">Regulatory Compliance</h1>
+                <p class="text-gray-500">Official listings of our food safety certifications and manufacturing units.
+                </p>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- CARD TEMPLATE (repeated manually) -->
+                <div class="bg-white rounded-xl shadow border border-black/5 overflow-hidden flex flex-col relative">
+                    <div class="h-1 w-full bg-red-600"></div>
+                    <div class="bg-red-600/5 p-5 border-b border-black/5 flex justify-between items-center">
+                        <h2 class="text-red-600 font-semibold flex items-center gap-2 text-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Food Safety Certification
+                        </h2>
+                        <span
+                            class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Active</span>
+                    </div>
+
+                    <div class="p-6 space-y-6">
+                        <div>
+                            <div class="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-1">FSSAI License
+                                No</div>
+                            <div class="text-2xl font-extrabold text-gray-800 border-b border-dashed border-gray-300 pb-3"
+                                id="fssaiNumber">10721025000352</div>
+                        </div>
+
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Manufactured By</div>
+                            <div>
+                                <div class="font-bold text-gray-800">OTC Spices Pvt. Ltd.</div>
+                                <p class="text-gray-600 text-sm leading-relaxed">Plot No. : C 1/2, Nr. Arihant Transport
+                                    GIDC Estate Umergham Dist. Valsad, Gujrat-399171</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="bg-white rounded-xl shadow border border-black/5 overflow-hidden flex flex-col relative">
+                    <div class="h-1 w-full bg-red-600"></div>
+                    <div class="bg-red-600/5 p-5 border-b border-black/5 flex justify-between items-center">
+                        <h2 class="text-red-600 font-semibold flex items-center gap-2 text-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Food Safety Certification
+                        </h2>
+                        <span
+                            class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Active</span>
+                    </div>
+
+                    <div class="p-6 space-y-6">
+                        <div>
+                            <div class="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-1">FSSAI License
+                                No</div>
+                            <div
+                                class="text-2xl font-extrabold text-gray-800 border-b border-dashed border-gray-300 pb-3">
+                                10013021000618</div>
+                        </div>
+
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Manufactured By</div>
+                            <div>
+                                <div class="font-bold text-gray-800">Gandhi Spices Pvt. Ltd.</div>
+                                <p class="text-gray-600 text-sm leading-relaxed">Rajkot - Jamnagar Highway, Khandheri,
+                                    Dist. Rajkot, Gujrat-360110</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="bg-white rounded-xl shadow border border-black/5 overflow-hidden flex flex-col relative">
+                    <div class="h-1 w-full bg-red-600"></div>
+                    <div class="bg-red-600/5 p-5 border-b border-black/5 flex justify-between items-center">
+                        <h2 class="text-red-600 font-semibold flex items-center gap-2 text-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Food Safety Certification
+                        </h2>
+                        <span
+                            class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Active</span>
+                    </div>
+
+                    <div class="p-6 space-y-6">
+                        <div>
+                            <div class="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-1">FSSAI License
+                                No</div>
+                            <div
+                                class="text-2xl font-extrabold text-gray-800 border-b border-dashed border-gray-300 pb-3">
+                                10013021000882</div>
+                        </div>
+
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Manufactured By</div>
+                            <div>
+                                <div class="font-bold text-gray-800">Vitagreen Products Pvt. Ltd.</div>
+                                <p class="text-gray-600 text-sm leading-relaxed">Plot No. : G-557, Lodhika Ind. Estate,
+                                    Metoda, Kalawad Road, Rajkot, Gujrat-360021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="bg-white rounded-xl shadow border border-black/5 overflow-hidden flex flex-col relative">
+                    <div class="h-1 w-full bg-red-600"></div>
+                    <div class="bg-red-600/5 p-5 border-b border-black/5 flex justify-between items-center">
+                        <h2 class="text-red-600 font-semibold flex items-center gap-2 text-lg">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Food Safety Certification
+                        </h2>
+                        <span
+                            class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Active</span>
+                    </div>
+
+                    <div class="p-6 space-y-6">
+                        <div>
+                            <div class="text-xs uppercase tracking-wider text-gray-500 font-semibold mb-1">FSSAI License
+                                No</div>
+                            <div
+                                class="text-2xl font-extrabold text-gray-800 border-b border-dashed border-gray-300 pb-3">
+                                10018021003121</div>
+                        </div>
+
+                        <div>
+                            <div class="text-sm text-gray-500 mb-1">Manufactured By</div>
+                            <div>
+                                <div class="font-bold text-gray-800">Hindustan Hing Supplying Co.</div>
+                                <p class="text-gray-600 text-sm leading-relaxed">Opp. New Billodra Village, Nr. Express
+                                    Way Ring Road Marida, Nadiad, Gujrat-387360</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-red-600 text-white py-8 text-center mt-auto">
+        <div class="max-w-7xl mx-auto px-4">
+            <div id="copyrightText" class="opacity-90 font-medium">
+                © 2024 Your Company. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
